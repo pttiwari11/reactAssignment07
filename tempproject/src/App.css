@@ -1,0 +1,133 @@
+
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.dialog {
+  background-color: #0F044C;
+  position: relative;
+  width: 90%;
+  max-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  color: white;
+  align-items: flex-start;
+  border-radius: 5px;
+}
+
+.FormControlLabel {
+  padding: 0;
+  margin: 0;
+}
+
+.dialogItem {
+  margin: 0 0 0 15px;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.dialogHeader {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 15px 15px 15px 15px;
+}
+
+.DialogBox {
+  background-color: #355764;
+  width: 25%;
+  min-height: 45vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 12px;
+  margin-right: auto;
+  margin-bottom: 25px;
+  color: white;
+  align-items: flex-start;
+  border-radius: 5px;
+}
+
+.reset {
+  color: #3B9AE1;
+}
+
+ span {
+  text-align: left;
+  font-weight: bold;
+  
+ }
+
+.Nav {
+  text-align: left;
+  max-width: 80%;
+  height: 70vh;
+  background-color:#0F044C;
+  margin: 20px auto auto;
+
+}
+
+.filter {
+  background-color: #000033;
+  border: 1px solid #444444;
+  color: white;
+  margin-left: 2vh;
+  font-weight: bold;
+  border-radius: 0.8vh;
+  padding: 8px 15px 8px 15px;
+  margin-top: 5px;
+  
+}
+
+button:active {
+  background-color: #5800FF;
+}
+
+button:visited {
+  background-color: #5800FF;
+}
+
+.box {
+  background-color: #355764;
+  width: 1500%;
+  height: 80%;
+  margin-left: 15px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
